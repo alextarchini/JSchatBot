@@ -39,7 +39,7 @@ function botVoice(message) {
     speech.text = "Hmm do you want to check with google at www.google.com?";
   }
 
-  if (message.includes(" How are you")) {
+  if (message.includes("How are you")) {
     speech.text = "I am fine, thanks. How are you?";
   }
 
@@ -60,8 +60,7 @@ function botVoice(message) {
   }
 
   if (message.includes("Rocky")) {
-    speech.text =
-      "Rocky is super handsome! I think that Rocco is the smartest, and most intelligent young Italian handsome engineer";
+    speech.text = "Rocky is super handsome!";
   }
 
   if (message.includes("Alex")) {
@@ -95,8 +94,11 @@ function botVoice(message) {
     speech.text =
       "For more information on SpaceArt's events please visit our EVENTS section";
   }
-  if (message.includes("what")) {
-    speech.text = "Shall we check with uncle Google at www.google.com? !";
+  if (message.includes("when")) {
+    speech.text = "Shall we check with uncle Google at www.google.com ?!";
+  }
+  if (message.includes("yes")) {
+    speech.text = "OK, shall we get a little help from www.google.com ?!";
   }
 
   speech.volume = 1;
