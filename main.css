@@ -43,6 +43,7 @@ a:hover {
   background-color: white;
   font-family: Helvetica;
   overflow:hidden;
+  width: 100px;
 }
 
 /* Darker chat container */
