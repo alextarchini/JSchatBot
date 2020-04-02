@@ -36,17 +36,15 @@ a:hover {
   padding: 10px;
   margin: 10px auto;
   width: 60%;
-  overflow:hidden;
-  white-space: pre-line;
-  display:block;
+     overflow:auto;
+    display:block;
 }
 
 .chat-container p {
   background-color: white;
   font-family: Helvetica;
-  overflow:hidden;
-  white-space: pre-line;
-  display:block;
+     overflow:auto;
+     display:block;
 }
 
 /* Darker chat container */
@@ -57,8 +55,8 @@ a:hover {
 
 .darker p {
   background-color: #c0ffee;
-    white-space: pre-line;
-  display:block;
+    overflow:auto;
+    display:block;
 }
 
 /* Clear floats */
