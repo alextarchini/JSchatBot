@@ -36,14 +36,14 @@ a:hover {
   padding: 10px;
   margin: 10px auto;
   width: 60%;
-     overflow:auto;
+    overflow-wrap: break-word;
     display:block;
 }
 
 .chat-container p {
   background-color: white;
   font-family: Helvetica;
-     overflow:auto;
+     overflow-wrap: break-word;
      display:block;
 }
 
@@ -55,7 +55,7 @@ a:hover {
 
 .darker p {
   background-color: #c0ffee;
-    overflow:auto;
+    overflow-wrap: break-word;
     display:block;
 }
 
