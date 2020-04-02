@@ -55,6 +55,7 @@ a:hover {
 
 .darker p {
   background-color: #c0ffee;
+    white-space: pre-line;
 }
 
 /* Clear floats */
