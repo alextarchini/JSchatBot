@@ -37,13 +37,14 @@ a:hover {
   margin: 10px auto;
   width: 60%;
   overflow:hidden;
+  white-space: pre-line;
 }
 
 .chat-container p {
   background-color: white;
   font-family: Helvetica;
   overflow:hidden;
-  width: 100px;
+  white-space: pre-line;
 }
 
 /* Darker chat container */
